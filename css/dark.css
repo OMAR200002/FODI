@@ -1,0 +1,68 @@
+/* Start Variables */
+:root {
+  --dark-mode-color: #0a092d;
+  --main-color: #f78905;
+  --main-dark-box-shadow: 0 2px 12px 0 #0b0955;
+  --main-dark-bg-section: #071746;
+}
+/* End Variables */
+/* Start Global Rules */
+body {
+  background-color: var(--dark-mode-color);
+  color: white;
+}
+/* End Global Rules */
+/* Start Header Section*/
+@media (max-width: 992px) {
+  header .container .links {
+    background-color: var(--dark-mode-color);
+    box-shadow: 0 14px 12px 0 #0a0939;
+  }
+}
+header .container .search .mode-toggle {
+  background-color: var(--main-color);
+}
+header .container .search .mode-toggle div {
+  right: 28px;
+}
+/* End Header Section*/
+/* Start Dishes Section */
+.dishes .container .box {
+  background-color: var(--main-dark-bg-section);
+  box-shadow: var(--main-dark-box-shadow);
+}
+/* End Dishes Section */
+/* Start About Section */
+.about {
+  background-color: var(--main-dark-bg-section);
+}
+.about .container .text h2 {
+  color: var(--main-color);
+}
+.about .container .text .qualities div {
+  color: white;
+}
+/* End About Section */
+/* Start Testimonials Section */
+.testimonials .box {
+  background-color: var(--main-dark-bg-section);
+  box-shadow: var(--main-dark-box-shadow);
+}
+.testimonials .box .image {
+  background-color: var(--dark-mode-color);
+}
+/* End Testimonials Section */
+/* Start Stats Section */
+.stats::before {
+  background-color: rgba(7, 23, 70, 0.6);
+}
+.stats .box {
+  background-color: #071746;
+  box-shadow: var(--main-dark-box-shadow);
+}
+/* End Stats Section */
+/* Start Footer Section */
+footer {
+  background-color: var(--dark-mode-color);
+}
+/* End Footer Section */
